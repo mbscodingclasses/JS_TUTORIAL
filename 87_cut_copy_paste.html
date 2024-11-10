@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS : Clipboard Events</title>
+    <style>
+      body {
+        font-family: arial;
+      }
+      #myinput {
+        font-size: 21px;
+        padding: 15px;
+        width: 70%;
+      }
+      #box {
+        background: lightgoldenrodyellow;
+        width: 400px;
+        height: 250px;
+        padding: 15px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>JavaScript Clipboard Events</h2>
+    <!-- cut/paste => form input -->
+    <input type="text" id="myinput" />
+
+    <div id="box" oncopy="copyfunction()">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto hic
+      deserunt laboriosam dolores quia doloremque est alias repellat vero odit
+      maxime voluptatem cupiditate, suscipit et quisquam, voluptate id? Atque,
+      harum repellat illum dignissimos libero officiis nisi enim praesentium
+      nulla itaque pariatur laborum sunt nam quod molestiae, similique saepe
+      neque ratione, consequatur quibusdam magnam est! Unde voluptates, enim
+      natus ea cum tempore perspiciatis qui, ipsum eveniet illum et dignissimos,
+      asperiores aperiam.
+    </div>
+    <script src="87_cut_copy_paste.js"></script>
+  </body>
+</html>
